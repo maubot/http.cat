@@ -1,0 +1,7 @@
+# Command prefix without the !
+command: http
+# URL for cats. {status} is replaced with the status code.
+url: https://http.cat/{status}.jpg
+# Map of status code -> image info for cats.
+# This will be filled whenever a status code is requested.
+reuploaded_cats: {}
